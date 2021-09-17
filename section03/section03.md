@@ -105,14 +105,27 @@ the item could be in the db from previously.
 
 59. Creating our application endpoints
 
-
-
-
 60. Returning a list of stores
-7분
+
+> http://127.0.0.1:5000/store
+
+```json
+{
+  "stores": [
+    {
+      "items": [{ "name": "My Item", "price": 15.99 }],
+      "name": "My Wonderful Store"
+    }
+  ]
+}
+```
+
+
+    ``
 
 61. Implementing other endpoints
-9분
+여기서부터 시작 (21-09-06)
+[comment]: <> (https://www.udemy.com/course/rest-api-flask-and-python/learn/lecture/5960120#overview)
 
 62. Calling the API from JavaScript
 7분
